@@ -1,0 +1,16 @@
+# Maximum members in one team
+max-members: 10
+
+# Seconds before a team invite expires
+invite-expire-seconds: 600
+
+# Blocks hidden from the team icon picker (e.g. ones that load purple/black).
+# Banners and dried ghasts are hidden by default - add more names here if needed.
+icon-exclude:
+  - DRIED_GHAST
+  - TEST_BLOCK
+  - TEST_INSTANCE_BLOCK
+
+# Any block whose name ends with one of these is hidden too
+icon-exclude-suffix:
+  - _BANNER
